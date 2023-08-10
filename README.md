@@ -24,6 +24,13 @@ Use case : We want to create a rest url to welcome a user
 Welcome 
 
 
+@GET	- getting results
+@POST	- create/insert
+@PUT	- update
+@DELETE	- delete
+
+
+Use case : a crud rest api 	- Add /Delete /Update a product
 
 
 
