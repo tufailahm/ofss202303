@@ -198,6 +198,26 @@ Safe and Idempotent methods
 
 
 
+Oracle WebLogic Server 14c: Administration Essentials
+===================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
