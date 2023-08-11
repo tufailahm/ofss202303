@@ -201,9 +201,63 @@ Safe and Idempotent methods
 Oracle WebLogic Server 14c: Administration Essentials
 ===================================
 
+Weblogic Server
+
+
+	Admin Server		-1 
+	Manager Server		-0 or many
+	Node Manager		- separate process that accepts remote connections
 
 
 
+Domain
+==========
+AdminServer
+weblogic
+weblogic1
+
+
+Node Manager
+weblogic
+weblogic1
+
+
+
+
+
+
+
+
+
+
+
+
+---------------
+
+1. start to start the server 
+
+
+
+
+--How to create new domain
+
+domain - orcldomain
+
+
+-----------How to deploy our web application in weblogic
+
+
+war/jar	
+
+
+
+7004
+
+
+Web logic Cluster
+* welogic version all should the same
+
+192.168.33.102:8011,192.168.44.102:8012
 
 
 
