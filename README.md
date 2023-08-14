@@ -266,12 +266,19 @@ Web logic Cluster
 
 
 
+-----------------
+Oracle 19c
+
+alter session set "_ORACLE_SCRIPT"=true;
+
+ CREATE USER daniel IDENTIFIED BY daniel DEFAULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP";
 
 
+ grant create session to daniel;
 
+grant all privileges to daniel;
 
-
-
+connect daniel/porter;
 
 
 
